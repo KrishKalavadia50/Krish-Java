@@ -1,0 +1,108 @@
+Definition:
+
+Project Definition: Wastezy
+
+The Waste Management project aims to streamline the collection, sorting, and processing of various types of waste, including metals, fabrics, plastics, and paper. This initiative focuses on efficiently gathering waste materials directly from customers and facilitating their transfer to recycling companies and other users who can repurpose these materials. By promoting responsible waste disposal and recycling practices, the project seeks to reduce landfill contributions, minimize environmental impact, and support a circular economy. Through effective collaboration with stakeholders, the project aims to enhance community awareness of waste management practices and contribute to a more sustainable future. also help with employed persona.
+
+End user : 
+	1)Customer
+	2)Admin
+	3)Company
+	4)Zoner
+
+Requirement : 
+
+	1)Customer :
+		user registration    -for home       --sell, buy     --zoner
+		user login           -for company    -- sell, buy    --zoner
+		-forget password
+		order request
+		order status
+		pick west submission
+		payment 
+		feedback
+		order tracking
+		order history
+		customer support
+
+
+	2)Admin :
+		admin registration
+		admin login
+		--forgot password
+		user management
+		price management
+		categories managements
+		zoner display requirement
+		payment and invoice management
+		stock management
+		report management
+		company management
+		company order tracking
+
+
+	3)Company :
+		company registration      -for company    --sell, buy  --zoner
+		company login             -for company    --sell, buy  --zoner
+		--registration with GST no and PAN no
+		-forget password
+		order request
+		order status
+		payment 
+		feedback
+		order tracking
+		order history
+		customer support
+
+
+	4)Zoner :
+		zoner login
+		order list
+		order history
+		zone management
+		support
+		resource allocation
+		stock allocation
+		collection history
+
+4)UML Diagram
+		1)
+5)DD
+
+	1)customer : 
+		1. Customers Table
+		2. Waste Collection Requests Table
+		3. Transactions Table
+		4. Customer Feedback Table
+		5.order table
+
+	2)Admin : 
+		1. Collection(stock) Zones Table
+		2. Workers
+		3. Collection Assignments Table
+		4. Payment table
+		5. Category management table
+		6. zone management table
+		7. user management table
+		8. admin table
+		9. Feedback table
+		10. contact Form
+		11. order table
+
+	3)Company : 
+		1. Company table
+		2. order table
+
+	4)zoner :
+		1.Collection zone table
+		2.Order table
+		3.zoner table
+
+
+
+
+
+
+
+
+
